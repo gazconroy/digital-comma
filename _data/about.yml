@@ -1,0 +1,79 @@
+- image: "img/about-com/cost-benefit-analysis.jpg"
+  title: "Cost benefit analysis"
+  link: "https://web.archive.org/web/20000815073942/http://techwriting.about.com/careers/techwriting/library/weekly/aa090398.htm"
+  annotation: "Comparing the costs of developing documentation against the benefits that may be expected"
+  
+- image: "img/about-com/estimating.jpg"
+  title: "Estimating - part one"
+  link: "https://web.archive.org/web/20010626032544/http://techwriting.about.com/careers/techwriting/library/weekly/aa020701a.htm"
+  annotation: "Estimating the time required for a documentation project"
+  
+- image: "img/about-com/estimating.jpg"
+  title: "Estimating - part two"
+  link: "https://web.archive.org/web/20010709000650/http://techwriting.about.com/careers/techwriting/library/weekly/aa020701b.htm"
+  annotation: "A more detailed breakdown"
+  
+- image: "img/about-com/flow-chart-of-a-technical-writers-work.jpg"
+  title: "Flow chart of a technical writer's work"
+  link: "https://web.archive.org/web/20000815074251/http://techwriting.about.com/careers/techwriting/library/weekly/aa092897.htm"
+  annotation: "Covering most of the major phases and decisions"
+  
+- image: "img/about-com/geting-started-in-technical-writing.jpg"
+  title: "Getting started in technical writing"
+  link: "https://web.archive.org/web/20000903091949/http://techwriting.about.com/careers/techwriting/library/weekly/aa033098.htm"
+  annotation: "Do you think you might be a good fit?"
+  
+- image: "img/about-com/indexing.jpg"
+  title: "Indexing"
+  link: "https://web.archive.org/web/20000818214059/http://techwriting.about.com/careers/techwriting/library/weekly/aa011998.htm"
+  annotation: "A good index is a vital component in any document which is more than 20 to 30 pages long"
+  
+- image: "img/about-com/planning-a-documentation-project.jpg"
+  title: "Planning a documentation project"
+  link: "https://web.archive.org/web/20000815061715/http://techwriting.about.com/careers/techwriting/library/weekly/aa071497.htm"
+  annotation: "Most writing projects consist of five major phases"
+  
+- image: "img/about-com/proposal-writing.jpg"
+  title: "Proposal writing"
+  link: "https://web.archive.org/web/20010411091656/http://techwriting.about.com/careers/techwriting/library/weekly/aa022201.htm"
+  annotation: "Convince the reader that the author's objectives are well-founded and worth pursuing"
+  
+- image: "img/about-com/quick-user-manuals.jpg"
+  title: "Quick user manuals"
+  link: "https://web.archive.org/web/20000815061722/http://techwriting.about.com/careers/techwriting/library/weekly/aa092998.htm"
+  annotation: "Assuming that the reference guide is being written, you can create a quick user manual by referring to topics within that document"
+  
+- image: "img/about-com/report-writing.jpg"
+  title: "Report writing"
+  link: "https://web.archive.org/web/20000815074023/http://techwriting.about.com/careers/techwriting/library/weekly/aa033199.htm"
+  annotation: "The components of a report (my most popular About.com article)"
+  
+- image: "img/about-com/synopsis.jpg"
+  title: "The synopsis"
+  link: "https://web.archive.org/web/20000819013135/http://techwriting.about.com/careers/techwriting/library/weekly/aa051298.htm"
+  annotation: "Once the research phase of a documentation project is well advanced, it is useful to plan what is going to be written in a short document (a synopsis)"
+  
+- image: "img/about-com/technical-what.jpg"
+  title: "Technical what?"
+  link: "https://web.archive.org/web/20000711040056/http://techwriting.about.com/careers/techwriting/library/weekly/aa022797.htm"
+  annotation: "To some, technical writing can seem an esoteric, time-consuming and unnecessary frippery"
+  
+- image: "img/about-com/translation.jpg"
+  title: "Translation: the writer's role"
+  link: "https://web.archive.org/web/20001218044000/http://techwriting.about.com/careers/techwriting/library/weekly/aa031698.htm"
+  annotation: "To aid the translator in producing an accurate, and cost-effective, representation of the original"
+  
+- image: "img/about-com/translation.jpg"
+  title: "Choosing a translator"
+  link: "https://web.archive.org/web/20010206190758/http://techwriting.about.com/careers/techwriting/library/weekly/aa041398.htm"
+  annotation: "The criteria that should be applied to your search for a translator"
+  
+- image: "img/about-com/whats-in-a-name.jpg"
+  title: "What's in a name?"
+  link: "https://web.archive.org/web/20010511211541/http://techwriting.about.com/careers/techwriting/library/weekly/aa083197.htm"
+  annotation: "There are plenty of people who do technical writing but aren't called technical writers"
+  
+- image: "img/about-com/whats-it-all-about.jpg"
+  title: "What's it all about?"
+  link: "https://web.archive.org/web/20010617174812/http://techwriting.about.com/careers/techwriting/library/weekly/aa041101.htm"
+  annotation: "The things a technical writer has to do."
