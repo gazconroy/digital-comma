@@ -10,7 +10,7 @@ title: Digital comma
 email: info@digital-comma.com
 description: "Where 'digital' meets 'communications'"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://gazconroy.github.io/digital-comma/" # the base hostname & protocol for your site
+url: "https://gazconroy.github.io/digital-comma/" # the base hostname & protocol for your site
 github_username: gazconroy
 
 # Build settings
