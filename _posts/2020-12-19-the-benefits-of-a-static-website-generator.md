@@ -2,7 +2,7 @@
 title: The benefits of a static site generator
 date: 2020-12-19 12:01 
 image: http://placehold.it/900x300
-summary: On many websites, every request to the server is handled by complex dynamic code. This slows things down. Often this level of complexity is not needed and can be avoided by generating static content.
+lead: On many websites, every request to the server is handled by complex dynamic code. This slows things down. Often this level of complexity is not needed and can be avoided by generating static content.
 subtitle: Create a fast, secure, easy to maintain site
 category: jekyll
 
