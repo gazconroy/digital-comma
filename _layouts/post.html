@@ -15,18 +15,15 @@ layout: default
 
                 <!-- Blog Post -->
 
-                <!-- Title -->
-                <h1>{{ page.title }}</h1>
-
                 <!-- Author -->
                 <p class="lead">
-                    by {{ page.author }}
+                    {{ page.author }}
                 </p>
 
                 <hr>
 
                 <!-- Date/Time -->
-                <p><span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date: "%B %d, %Y"}}</p>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date: "%d %B %Y"}}</p>
 
                 <hr>
                 
@@ -86,11 +83,6 @@ layout: default
                     {% endfor %}
 
                     <!-- /.row -->
-                </div>
-
-                <!-- Side Widget Well -->
-                <div class="well">
-                    {% include contact-info.html %}
                 </div>
 
             </div>
