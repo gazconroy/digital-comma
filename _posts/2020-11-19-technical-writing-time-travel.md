@@ -8,11 +8,9 @@ category: "Technical writing"
 
 ---
 
-<ul>
     {% for service in site.data.about %}
-    <li><a href="{{ service.link }}" target="_blank"><img src="{{ service.image }}" alt="{{ service.title }}"></a>
-        <p><strong>{{ service.title }}</strong></p>
-        <p>{{ service.annotation }}</p>
-    </li>
+    <p><a href="{{ service.link }}" target="_blank"><img src="{{ service.image }}" alt="{{ service.title }}"></a><br>
+    <strong>{{ service.title }}</strong></br>
+    {{ service.annotation }}
+    </p>
     {% endfor %}
-</ul>

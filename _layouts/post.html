@@ -15,15 +15,10 @@ layout: default
 
                 <!-- Blog Post -->
 
-                <!-- Author -->
-                <p class="lead">
-                    {{ page.author }}
-                </p>
-
                 <hr>
 
                 <!-- Date/Time -->
-                <p><span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date: "%d %B %Y"}}</p>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date: "%d %B %Y"}} by {{ page.author }}</p>
 
                 <hr>
                 
