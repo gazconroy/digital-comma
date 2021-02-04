@@ -27,3 +27,5 @@ defaults:
       layout: "post"
       author: "Gary Conroy"
       category: "jekyll"
+
+theme: jekyll-theme-cayman
