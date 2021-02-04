@@ -7,18 +7,18 @@
              {% for post in site.posts %}
                 <!-- Blog Post -->
                 <h2>
-                    <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                 </h2>
                 <p class="lead">
                     by {{ post.author }}
                 </p>
                 <p><span class="glyphicon glyphicon-time"></span> Posted on {{ post.date | date: "%e %B %Y" }}</p>
                 {% if post.image %}
-                <img class="img-responsive" src="{{ post.image | absolute_url }}" alt="{{ post.title }}">
+                <img class="img-responsive" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
                 <hr>
                 {% endif %}
                 {{ post.subtitle }}
-                <a class="btn btn-primary" href="{{ post.url | absolute_url }}">More...<span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="{{ post.url | relative_url }}">More...<span class="glyphicon glyphicon-chevron-right"></span></a>
 
                 <hr>                                            
             {% endfor %}                           
