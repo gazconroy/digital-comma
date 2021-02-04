@@ -22,25 +22,24 @@ layout: default
 
                 <hr>
                 
-                   <!-- Preview Image -->
-                   {% if page.image %}
+                <!-- Preview Image -->
+                {% if page.image %}
                    <img class="img-responsive" src="{{ page.image }}" alt="{{ page.image }}">
-                   {% endif %}
+                {% endif %}
                 
+                {% if page.lead %}
+                    <p class="lead">{{ page.lead }}</p>
+                {% endif %}
 
                 <hr>
 
                 <!-- Post Content -->
-                {% if page.lead %}
-                <p class="lead">{{ page.lead }}</p>
-                {% endif %}
                 
                 {{ page.content }}
 
-
                 <hr>
                 {% if site.comments %}
-                {% include comments.html %}
+                    {% include comments.html %}
                 {% endif %}
                 
                  {% if page.previous %}

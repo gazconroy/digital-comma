@@ -24,7 +24,7 @@ This is typically:
 - Portfolio
 
 
-# Some benefits of static sites
+## Some benefits of static sites
 - **Performance.**  Static sites are fast. There is no server-side processing and no database to connect to, meaning that there is nothing to slow the process of getting a page from the server to your end user
 - **Security.** Static sites are immune to the most common attacks, as they do not contain dynamic content: there are no server-side language issues to exploit and no database to hack
 - **Content versioning.** Since your entire site, from configuration to content, is file-based, it is very easy to keep all aspects of it within a version control system like Git.

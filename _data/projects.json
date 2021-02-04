@@ -1,12 +1,12 @@
 [
 {
-  "category": "Branding",
+  "category": "Technical writing",
   "img": "img/portfolio/work1.jpg",
-  "title": "Tesla Motors",
-  "content": "Labore et dolore magna aliqua. Ut enim ad"
+  "title": "What's it all about?",
+  "content": "Articles about the profession itself"
 },
 {
-  "category": "Graphic",
+  "category": "Budgeting",
   "img": "img/portfolio/work2.jpg",
   "title": "Tesla Motors",
   "content": "Labore et dolore magna aliqua. Ut enim ad"
