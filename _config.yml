@@ -28,3 +28,4 @@ defaults:
       author: "Gary Conroy"
       category: "jekyll"
 remote_theme: pmarsceill/just-the-docs
+theme: jekyll-theme-slate
