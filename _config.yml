@@ -1,30 +1,132 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+locale: "en-GB"
 title: Digital comma
+subtitle: "API documentation, technical writing and intranet management"
 email: info@digital-comma.com
-description: "Where 'digital' meets 'communications'"
-# baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gazconroy.github.io/digital-comma/" # the base hostname & protocol for your site
+description: >- # this means to ignore newlines until "baseurl:"
+  Where 'digital' meets 'communications'
+url: "https://gazconroy.github.io"
+baseurl: "/digital-comma"
 github_username: gazconroy
+repository: "gazconroy/digital-comma"
+minimal_mistakes_skin: default
+teaser: /assets/images/fallback-teaser.png
+logo: "/assets/images/logo.png"
+search: true
 
 # Build settings
 markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: GB
+breadcrumbs: true
 
-permalink: none
-comments: true 
+search_provider: algolia
+algolia:
+  application_id: WR91W1HO65
+  index_name: prod_digital-comma
+  search_only_api_key: 018663ac9b4509bbacab9489df1a7bdf
+  powered_by: false
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "GTM-NQWHCVC"
+    anonymize_ip: false # default
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "digital-comma"
+
+include:
+  - _pages
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-archives
+
+author:
+  name   : "Gary Conroy"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Technical writer specialising in APIs, intranet, digital workplace, technical content delivery"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://digital-comma.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/gazconroy"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gazconroy"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/gazconroyster"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/gazconroy"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gazconroy"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/gazconroyster"
+
 defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
+  # _posts
+  - scope:
+      path: ""
+      type: posts
     values:
-      layout: "post"
-      author: "Gary Conroy"
-      category: "jekyll"
-theme: jekyll-theme-slate
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development  # disable compression in dev environment
