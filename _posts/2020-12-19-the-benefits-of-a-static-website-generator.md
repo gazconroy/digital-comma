@@ -2,7 +2,8 @@
 title: The benefits of a static site generator
 categories:
   - Jekyll
-image: http://placehold.it/900x300
+header:
+  image: http://placehold.it/900x300
 summary: On many websites, every request to the server is handled by complex dynamic code. This slows things down. Often this level of complexity is not needed and can be avoided by generating static content.
 subtitle: Create a fast, secure, easy to maintain site
 
