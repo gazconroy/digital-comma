@@ -1,6 +1,7 @@
 ---
 title: "Learning Jekyll"
-date: 2016-01-08 12:00
+categories:
+  - Jekyll
 image: http://placehold.it/900x300
 lead: If there is a lesson to be learned, it is the futility of seeking fulfillment in outer space. We need to judge ourselfs by who we are, not by where we go.
 ---
