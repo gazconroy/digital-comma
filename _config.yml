@@ -7,7 +7,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 locale: "en-GB"
-title: Digital comma
+title: Digital Comma
 subtitle: "API documentation, technical writing and intranet management"
 email: info@digital-comma.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -36,7 +36,8 @@ algolia:
   application_id: WR91W1HO65
   index_name: prod_digital-comma
   search_only_api_key: 018663ac9b4509bbacab9489df1a7bdf
-  powered_by: false
+  powered_by: true
+  files_to_exclude: []
 
 analytics:
   provider: "google-gtag"
