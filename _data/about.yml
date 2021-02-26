@@ -2,7 +2,7 @@ row1:
 - image_path: "img/about-com/cost-benefit-analysis.jpg"
   title: "Cost benefit analysis"
   url: "https://web.archive.org/web/20000815073942/http://techwriting.about.com/careers/techwriting/library/weekly/aa090398.htm"
-  excerpt: "Comparing the costs of developing documentation against the benefits that may be expected
+  excerpt: "Comparing the costs of developing documentation against the benefits that may be expected"
   btn_label: "More..."
   btn_class: "btn--inverse"
 - image_path: "img/about-com/estimating.jpg"
