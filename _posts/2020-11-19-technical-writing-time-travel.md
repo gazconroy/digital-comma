@@ -3,7 +3,6 @@ title: Technical writing time travel
 layout: splash
 categories:
   - Technical writing
-excerpt: "I used to work as a technical writing blogger (guide) for the sadly-defunct About.com. Courtesy of the Internet Archive, some of those articles are still ‘floating around’."
 header:
   overlay_color: "#fad845"
 
@@ -72,10 +71,13 @@ row3:
   excerpt: "Assuming that the reference guide is being written, you can create a quick user manual by referring to topics within that document"
   btn_label: "More..."
   btn_class: "btn--inverse"
+
 ---
 
-{% include feature_row id="row1" %}
-{% include feature_row id="row2" %}
-{% include feature_row id="row3" %}
+I used to work as a technical writing blogger (guide) for the sadly-defunct About.com. Courtesy of the [Internet Archive](https://archive.org/), some of those articles are still ‘floating around’.
+
+{% include feature_row id="row1" type="center" %}
+{% include feature_row id="row2" type="center" %}
+{% include feature_row id="row3" type="center" %}
 
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/police-call-box.jpg)
