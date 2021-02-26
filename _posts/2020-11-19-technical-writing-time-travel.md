@@ -6,7 +6,7 @@ categories:
 header:
   overlay_color: "#fad845"
 
-row1:
+feature_row:
 - image_path: "img/about-com/cost-benefit-analysis.jpg"
   title: "Cost benefit analysis"
   url: "https://web.archive.org/web/20000815073942/http://techwriting.about.com/careers/techwriting/library/weekly/aa090398.htm"
@@ -27,6 +27,8 @@ row1:
   excerpt: "A more detailed breakdown"
   btn_label: "More..."
   btn_class: "btn--inverse"
+
+{% comment %}
 
 row2:
 - image_path: "img/about-com/flow-chart-of-a-technical-writers-work.jpg"
@@ -72,12 +74,17 @@ row3:
   btn_label: "More..."
   btn_class: "btn--inverse"
 
+{% endcomment %}
+
 ---
 
 I used to work as a technical writing blogger (guide) for the sadly-defunct About.com. Courtesy of the [Internet Archive](https://archive.org/), some of those articles are still ‘floating around’.
 
-{% include feature_row id="row1" type="center" %}
+{% include feature_row %}
+
+{% comment %}
 {% include feature_row id="row2" type="center" %}
 {% include feature_row id="row3" type="center" %}
+{% endcomment %}
 
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/police-call-box.jpg)
