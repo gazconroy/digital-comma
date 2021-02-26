@@ -6,10 +6,8 @@ categories:
 excerpt: "I used to work as a technical writing blogger (guide) for the sadly-defunct About.com. Courtesy of the Internet Archive, some of those articles are still ‘floating around’."
 header:
   overlay_color: "#fad845"
-  
----
 
-feature_row:
+row1:
 - image_path: "img/about-com/cost-benefit-analysis.jpg"
   title: "Cost benefit analysis"
   url: "https://web.archive.org/web/20000815073942/http://techwriting.about.com/careers/techwriting/library/weekly/aa090398.htm"
@@ -31,7 +29,7 @@ feature_row:
   btn_label: "More..."
   btn_class: "btn--inverse"
 
-feature_row:
+row2:
 - image_path: "img/about-com/flow-chart-of-a-technical-writers-work.jpg"
   title: "Flow chart of a technical writer's work"
   url: "https://web.archive.org/web/20000815074251/http://techwriting.about.com/careers/techwriting/library/weekly/aa092897.htm"
@@ -53,7 +51,7 @@ feature_row:
   btn_label: "More..."
   btn_class: "btn--inverse"
 
-feature_row:
+row3:
 - image_path: "img/about-com/planning-a-documentation-project.jpg"
   title: "Planning a documentation project"
   url: "https://web.archive.org/web/20000815061715/http://techwriting.about.com/careers/techwriting/library/weekly/aa071497.htm"
@@ -74,5 +72,10 @@ feature_row:
   excerpt: "Assuming that the reference guide is being written, you can create a quick user manual by referring to topics within that document"
   btn_label: "More..."
   btn_class: "btn--inverse"
+---
+
+{% include feature_row id="row1" %}
+{% include feature_row id="row2" %}
+{% include feature_row id="row3" %}
 
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/police-call-box.jpg)
