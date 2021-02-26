@@ -71,6 +71,5 @@ I used to work as a technical writing blogger (guide) for the sadly-defunct Abou
 {% include feature_row id="row1" type="center" %}
 {% include feature_row id="row2" type="center" %}
 {% include feature_row id="row3" type="center" %}
-{% endcomment %}
 
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/police-call-box.jpg)
