@@ -8,8 +8,6 @@ header:
   overlay_filter: "0.5"
   overlay_image: assets/images/time-travel.jpg
 excerpt: "I used to work as a technical writing blogger (guide) for the sadly-defunct About.com. Courtesy of the [Internet Archive](https://archive.org/), some of those articles are still ‘floating around’."
-intro: 
-  - excerpt: 'I’ve picked a few of the ‘evergreens’ that still hold fairly true today – don’t expect the links from those pages to take you anywhere sensible, though.'
 row1:
 - image_path: assets/images/about-com/cost-benefit-analysis.jpg
   title: "Cost benefit analysis"
