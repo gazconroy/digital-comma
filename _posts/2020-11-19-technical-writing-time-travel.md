@@ -72,7 +72,7 @@ row4:
   excerpt: "The components of a report (my most popular About.com article)"
   btn_label: "More..."
   btn_class: "btn--inverse"
-- image: assets/images/about-com/synopsis.jpg
+- image_path: assets/images/about-com/synopsis.jpg
   title: "The synopsis"
   url: "https://web.archive.org/web/20000819013135/http://techwriting.about.com/careers/techwriting/library/weekly/aa051298.htm"
   excerpt: "Once the research phase of a documentation project is well advanced, it is useful to plan what is going to be written in a short document (a synopsis)"
