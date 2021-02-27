@@ -65,6 +65,44 @@ row3:
   excerpt: "Assuming that the reference guide is being written, you can create a quick user manual by referring to topics within that document"
   btn_label: "More..."
   btn_class: "btn--inverse"
+row4:
+- image_path: assets/images/about-com/report-writing.jpg
+  title: "Report writing"
+  url: "https://web.archive.org/web/20000815074023/http://techwriting.about.com/careers/techwriting/library/weekly/aa033199.htm"
+  excerpt: "The components of a report (my most popular About.com article)"
+  btn_label: "More..."
+  btn_class: "btn--inverse"
+- image: assets/images/about-com/synopsis.jpg
+  title: "The synopsis"
+  url: "https://web.archive.org/web/20000819013135/http://techwriting.about.com/careers/techwriting/library/weekly/aa051298.htm"
+  excerpt: "Once the research phase of a documentation project is well advanced, it is useful to plan what is going to be written in a short document (a synopsis)"
+  btn_label: "More..."
+  btn_class: "btn--inverse"
+- image_path: assets/images/about-com/technical-what.jpg
+  title: "Technical what?"
+  url: "https://web.archive.org/web/20000711040056/http://techwriting.about.com/careers/techwriting/library/weekly/aa022797.htm"
+  excerpt: "To some, technical writing can seem an esoteric, time-consuming and unnecessary frippery"
+  btn_label: "More..."
+  btn_class: "btn--inverse"
+row5:
+- image_path: assets/images/about-com/translation.jpg
+  title: "Translation: the writer's role"
+  url: "https://web.archive.org/web/20001218044000/http://techwriting.about.com/careers/techwriting/library/weekly/aa031698.htm"
+  excerpt: "To aid the translator in producing an accurate, and cost-effective, representation of the original"
+  btn_label: "More..."
+  btn_class: "btn--inverse"
+- image_path: assets/images/about-com/translation.jpg
+  title: "Choosing a translator"
+  url: "https://web.archive.org/web/20010206190758/http://techwriting.about.com/careers/techwriting/library/weekly/aa041398.htm"
+  excerpt: "The criteria that should be applied to your search for a translator"
+  btn_label: "More..."
+  btn_class: "btn--inverse"
+- image_path: assets/images/about-com/whats-in-a-name.jpg
+  title: "What's in a name?"
+  url: "https://web.archive.org/web/20010511211541/http://techwriting.about.com/careers/techwriting/library/weekly/aa083197.htm"
+  excerpt: "There are plenty of people who do technical writing but aren't called technical writers"
+  btn_label: "More..."
+  btn_class: "btn--inverse"
 ---
 
 {% include feature_row id="row1" %}
@@ -72,5 +110,9 @@ row3:
 {% include feature_row id="row2" %}
 
 {% include feature_row id="row3" %}
+
+{% include feature_row id="row4" %}
+
+{% include feature_row id="row5" %}
 
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/police-call-box.jpg)
