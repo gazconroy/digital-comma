@@ -6,6 +6,10 @@ header:
   teaser: /assets/images/let-it-flow-app.png
   overlay_color: "#333"
 excerpt: As a member of an editorial team approving SharePoint pages, a 'workbench' app is a handy management tool
+toc: true
+toc_label: "Contents"
+toc_icon: "cog"
+
 ---
 
 ## Benefits
@@ -29,16 +33,20 @@ excerpt: As a member of an editorial team approving SharePoint pages, a 'workben
 
 ## How to...a summary
 
-1. <i class="fa fa-camera-retro"></i> **Make a SharePoint list.** This is the core of the workbench and holds all the useful information for each approval request
-2. **Create 'feeder' workflows.** These will collate the various types of request - approve, review, delete - and feed them to the primary workflow
-3. **Create primary workflow.** This handles all requests
-4. **Create workbench app.** This PowerApp allows editors to approve, reject and edit all approval requests
+<i class="fa fas fa-file-alt"></i> **Make a SharePoint list.** This is the core of the workbench and holds all the useful information for each approval request
+
+<i class="fa fas fa-birthday-cake"></i> **Create 'feeder' workflows.** These will collate the various types of request - approve, review, delete - and feed them to the primary workflow
+
+<i class="fa fas fa-star"></i> **Create primary workflow.** This handles all requests
+
+<i class="fa fas fa-toolbox"></i> **Create workbench app.** This PowerApp allows editors to approve, reject and edit all approval requests
 
 ## ![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/important.jpg){: .align-right} Make a SharePoint list
 
 First choose a site that will host your ‘workbench’ list (for instance, a hub site may be a good location).
 
 Create a list and call it ‘Workbench’ with the fields:
+
 - **Title** – (the default field)
 - **Page** – Hyperlink
 - **PageID** – Number
@@ -51,4 +59,67 @@ Create a list and call it ‘Workbench’ with the fields:
 - **Processed** – Single line of text
 
 Make sure that all your authors have 'Owner' access to the workbench list.
+
+## ![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/feeder.png){: .align-right} Create 'feeder' workflows
+
+In the example given on this page, there are three types of author requests:
+
+- Approve (review and publish)
+- Review (but don't publish)
+- Delete
+
+Which means that for every site's 'Site Pages' library, you need to [configure page approval flow](https://support.microsoft.com/en-us/office/configure-page-approval-using-power-automate-14ce6976-a0a7-427b-b4ab-d28d344a5222) three times. Give each approval flow a unique name (like '*Publish [sitename] site page*') and an approver (you, initially, but you can edit/add as many as you like later).
+
+### ![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/publish-workflow.png){: .align-right} First, edit your 'publish' workflow
+c
+
+1. Open Power Automate to edit your new 'Publish' workflow
+2. **Delete** the *Send me an email notification* step.
+3. Open (click) the **Scope 2** step
+4. Copy out the *Body~* text from the **Send me an email notification 2** step. Save this text in a file (for access later)
+5. While still in *Scope 2*, **delete** the last three steps:
+
+    - Set content approval status - Pending
+    - Start an approval
+    - Condition.
+
+    At this stage, only *Get file properties* and *Get file metadata* will remain in Scope 2.
+
+6. Click **Add an action** and choose **Create item (SharePoint)**
+7. Fill in the blanks as follows (note that most of these map to the same fields in your workbench SharePoint list):
+
+    - **Site Address** - from the drop-down, choose the site where your workbench list 'lives'
+    - **List Name** - choose your workbench list
+    - **Title** is the 'guid' of this site's 'Site Pages' library (find by going to *Library settings*, open the *Enterprise Metadata and Keywords Settings* option: the guid is the string between the curly brackets)
+    - **Page** is *Link to item* (which you will find in the 'dynamic content' list)
+    - **Author Claims** is *User name* (from the 'dynamic content' list)
+    - **Request time** is *Timestamp* (from the 'dynamic content' list)
+    - **Comments** is *Message* (from the 'dynamic content' list)
+    - **Approval request** - write *Publish*
+    - **Unique ID** is *Id* (from the 'dynamic content' list in the 'Get file metadata' section)
+    - **Site** is the URL for the site you have just added the workflow to
+    - **Etag** is *ETag* (from the 'dynamic content' list)
+    - **File identifier** is ID (from the 'dynamic content' list in the 'Get file properties' section).
+
+    ![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/create-item.png){: .align-right}
+
+8. **Copy** the Scope2 field to your clipboard (this cut-and-paste will speed things up for the other two workflows)
+9. Click **Save**.
+
+### Edit the 'delete' and 'review' workflows
+
+1. Open the workflow and **delete** the *Scope 2* and *Send me an email notification* steps
+2. Click the **New step** button and then under **My clipboard**, click the **Scope2** step you copied from the 'publish' workflow
+3. Edit the *Create item* step and change **Approval request** to either *Delete* or *Review* (as appropriate)
+4. Click **Save**.
+
+### Test
+
+At this stage,  your authors can request pages to be reviewed, deleted or published but all that happens for now is that their requests are recorded in the Workbench list. The 'doing' of these requests comes in the 'primary workflow' section, below.
+
+However, both to ensure that your workflows are working correctly and to help you get a grasp of what is happening, I'd suggest a bit of testing. That's as simple as creating one or more of each approval requests: Publish, Delete and Review. After each review request, check the Workbench list to ensure the right kinds of things are being recorded.
+
+You do need to wait a little time for the flows to run (I'm seeing up to a minute's delay).
+
+## Create primary workflow
 
