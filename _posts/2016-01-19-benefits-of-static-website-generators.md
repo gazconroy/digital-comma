@@ -4,8 +4,7 @@ categories:
   - Jekyll
 header:
   image: http://placehold.it/900x300
-lead: "We pay a huge price for the underlying complexity of dynamic code running on a server for every request — a price we could avoid paying entirely when this kind of complexity is not needed."
-subtitle: Create a ultra fast, secure blog that is easy to mantain and easy to scale
+excerpt: "We pay a huge price for the underlying complexity of dynamic code running on a server for every request — a price we could avoid paying entirely when this kind of complexity is not needed."
 ---
 
 Some of the benefits of a static website generators are that they are:

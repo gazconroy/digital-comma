@@ -1,9 +1,9 @@
 ---
-title: Let it Flow!
+title: Let it flow!
 categories:
   - Office 365
 header:
   image: /assets/images/
-lead: As a member of an editorial team approving SharePoint pages, would you like a 'workbench' app?
+excerpt: As a member of an editorial team approving SharePoint pages, a 'workbench' app is a handy management tool
 
 ---
