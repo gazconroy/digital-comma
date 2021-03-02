@@ -10,11 +10,11 @@ toc: true
 toc_label: "Contents"
 toc_icon: "cog"
 classes: wide
+author_profile: false
 
 ---
 
 {% capture notice-text %}
-You can also add the `.notice` class to a `<div>` element.
 
 * **Snapshot** One place to go for a snapshot of your approval backlog
 * **Approval central** No missed requests and a consistent approach to sign-off (since one primary workflow and workbench handles all requests)
@@ -77,7 +77,7 @@ Which means that for every site's 'Site Pages' library, you need to [configure 
 1. Open Power Automate to edit your new 'Publish' workflow
 2. **Delete** the *Send me an email notification* step.
 3. Open (click) the **Scope 2** step
-4. Copy out the *Body~* text from the **Send me an email notification 2** step. Save this text in a file (for access later)
+4. Copy out the *Body* text from the **Send me an email notification 2** step. Save this text in a file (for access later)
 5. While still in *Scope 2*, **delete** the last three steps:
 
     - Set content approval status - Pending
