@@ -1,7 +1,7 @@
 ---
 title: Let it flow!
 categories:
-  - Office 365
+  - Microsoft 365
 header:
   teaser: /assets/images/let-it-flow-app.png
   overlay_color: "#333"
@@ -10,7 +10,6 @@ toc: true
 toc_label: "Contents"
 toc_icon: "cog"
 classes: wide
-author_profile: false
 
 ---
 
@@ -26,13 +25,13 @@ author_profile: false
 {% endcapture %}
 
 <div class="notice--info">
-  <h2 class="no_toc">Benefits</h2>
+  <h1>Benefits</h2>
   {{ notice-text | markdownify }}
 </div>
 
 {% include video id="458640313" provider="vimeo" %}
 
-## How to...a summary
+# How to...a summary
 
 <i class="fa fas fa-file-alt"></i> **Make a SharePoint list.** This is the core of the workbench and holds all the useful information for each approval request
 
@@ -42,7 +41,7 @@ author_profile: false
 
 <i class="fa fas fa-toolbox"></i> **Create workbench app.** This PowerApp allows editors to approve, reject and edit all approval requests
 
-## Make a SharePoint list
+# Make a SharePoint list
 
 First choose a site that will host your ‘workbench’ list (for instance, a hub site may be a good location).
 
@@ -62,7 +61,7 @@ Create a list and call it ‘Workbench’ with the fields:
 **Important.** Make sure that all your authors have 'Owner' access to the workbench list.
 {: .notice--warning}
 
-## Create 'feeder' workflows
+# Create 'feeder' workflows
 
 ![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/feeder.png){: .align-right} In the example given on this page, there are three types of author requests:
 
@@ -72,7 +71,7 @@ Create a list and call it ‘Workbench’ with the fields:
 
 Which means that for every site's 'Site Pages' library, you need to [configure page approval flow](https://support.microsoft.com/en-us/office/configure-page-approval-using-power-automate-14ce6976-a0a7-427b-b4ab-d28d344a5222) three times. Give each approval flow a unique name (like '*Publish [sitename] site page*') and an approver (you, initially, but you can edit/add as many as you like later).
 
-### ![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/publish-workflow.png){: .align-right} First, edit your 'publish' workflow
+## ![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/publish-workflow.png){: .align-right} First, edit your 'publish' workflow
 
 1. Open Power Automate to edit your new 'Publish' workflow
 2. **Delete** the *Send me an email notification* step.
@@ -114,7 +113,7 @@ Which means that for every site's 'Site Pages' library, you need to [configure 
 3. Edit the *Create item* step and change **Approval request** to either *Delete* or *Review* (as appropriate)
 4. Click **Save**.
 
-### Test
+## Test
 
 At this stage,  your authors can request pages to be reviewed, deleted or published but all that happens for now is that their requests are recorded in the Workbench list. The 'doing' of these requests comes in the 'primary workflow' section, below.
 
@@ -122,7 +121,7 @@ However, both to ensure that your workflows are working correctly and to help yo
 
 You do need to wait a little time for the flows to run (I'm seeing up to a minute's delay).
 
-## Create primary workflow
+# Create primary workflow
 
 Rather than go into too much detail here, I've annotated the Power Automate flow to give you an idea of what's happening. You will need that email text you copied previously for pasting into the email notifications.
 
@@ -131,7 +130,7 @@ Rather than go into too much detail here, I've annotated the Power Automate flow
 
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/primary-workflow.png)
 
-### A quick aside: clean your workbench (list)
+## A quick aside: clean your workbench (list)
 
 As it stands, the workbench list isn't very useful as a human-readable audit trail. So, to clear things up:
 
@@ -150,9 +149,9 @@ As it stands, the workbench list isn't very useful as a human-readable audit tra
 
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/workbench.png)
 
-## Create workbench app
+# Create workbench app
 
-Microsoft's Power Apps have a useful direct connection to SharePoint lists which makes generating apps from such data sources much simpler. If you are new to Power Apps, check out [Audrie Gordon's video walkthrough](https://youtu.be/JhomcXZaa28) to get a grasp for the basics.
+Microsoft's Power Apps have a useful direct connection to SharePoint lists which makes generating apps from such data sources much simpler. If you are new to Power Apps, check out [Audrie Gordon's video 'walkthrough'](https://youtu.be/JhomcXZaa28) to get a grasp for the basics.
 
 However, for your workbench app, I'd suggest adding individual fields one-by-one to a gallery (it's a much less frustrating experience overall).
 
