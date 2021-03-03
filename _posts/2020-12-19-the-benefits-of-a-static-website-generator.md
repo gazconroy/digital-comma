@@ -5,6 +5,8 @@ categories:
 header:
   image: http://placehold.it/900x300
   teaser: http://placehold.it/900x300
+  overlay_color: "#000"
+  overlay_filter: "0.5"
 excerpt: On many websites, every request to the server is handled by complex dynamic code. This slows things down. Often this level of complexity is not needed and can be avoided by generating static content.
 subtitle: Create a fast, secure, easy to maintain site
 

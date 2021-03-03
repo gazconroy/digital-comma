@@ -7,7 +7,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: assets/images/migration.jpg
   teaser: assets/images/migration.jpg
-excerpt: Mover is one of Microsoft 365's lesser-known tools but can be handy for buk migrations
+excerpt: Mover is one of Microsoft 365's lesser-known tools but can be handy for bulk migrations
 toc: true
 toc_label: "Contents"
 toc_icon: "cog"

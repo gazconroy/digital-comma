@@ -25,7 +25,7 @@ classes: wide
 {% endcapture %}
 
 <div class="notice--info">
-  <h1>Benefits</h2>
+  <h1>Benefits</h1>
   {{ notice-text | markdownify }}
 </div>
 
