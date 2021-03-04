@@ -8,6 +8,7 @@ header:
   overlay_image: assets/images/exchange.jpg
   teaser: assets/images/exchange.jpg
 excerpt: There are a plethora of systems that you can use but many carry a cost and for open source software, that's often a deal breaker
+layout: splash
 classes: wide
 ---
 
