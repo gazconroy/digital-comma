@@ -27,6 +27,8 @@ This example procedure uses **Mover** to do the heavy lifting between DropBox an
 - **Sources:** Amazon S3, Azure Blob, Box, Dropbox, Egnyte, Google Suite/Drive, SharePoint, OneDrive
 - **Destinations:** Azure Blob, Microsoft 365 (OneDrive/SharePoint/Teams), OneDrive (business and consumer).
 
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/dropbox-migrate.png)
+
 # Preparation
 
 ## Dropbox preparation
@@ -100,4 +102,4 @@ There will be some 'technical admin' required when [setting up connectors](https
 
 At the end of this process, your users should find their individual files in their personal OneDrive accounts. All generic files will be in your Microsoft 365 team in the folders you specified.
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/dropbox-migrate.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/mover.png)
