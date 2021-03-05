@@ -1,5 +1,6 @@
 ---
 title: Services
+permalink: /services/
 author_profile: false
 header:
   overlay_color: "#000"
