@@ -1,0 +1,29 @@
+---
+title: Services
+author_profile: false
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: assets/images/man-typing.jpg
+  teaser: assets/images/man-typing.jpg
+excerpt: What can Digital Comma do for you?
+classes: wide
+---
+
+# Web APIs
+
+Do you need an Open API/Swagger or AsyncAPI tweaked or created from scratch? Digital Comma can write your API documentation and help reduce your developers workload so that they can focus on what they do best.
+
+# Technical and business writing
+
+Digital Comma have created documentation sets and written content in various formats and on diverse subjects: websites, newsletters, intranets, ISO9000 compliance documentation, systems of policy and procedure, reports, code commenting, leaflets, brochures, online help, eLearning modules and more.
+
+# Intranet management ![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/web_design.png){: .align-right}
+
+An intranet is not usually one standalone tool but the collective noun that describes a set of interconnected systems used to deliver communications and collaboration in an organisation. 
+
+- **Every intranet is different:** each intranet platform has its own library of tools and every organisation brings its own quirks and integrations
+- **Every intranet is the same:** there are common sets of solutions (some of which won't fit your needs) and some pre-requisites for managing content
+- **A content management system (CMS) is not an intranet** - any more than a cook book is a meal. A CMS will provide a framework and, often, a starting point but you will need to determine how to craft an intranet.
+
+Digital Comma can help provide guidance in stepping through this minefield of choices (often 'too much choice') and help you to make key decisions.
