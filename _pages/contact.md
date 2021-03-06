@@ -7,6 +7,8 @@ header:
   teaser: assets/images/migration.jpg
 excerpt: How can Digital Comma help you?
 permalink: /contact.html
+classes: wide
+author_profile: false
 ---
 
 {% include contact-info.html %}
@@ -56,7 +58,7 @@ I will get back to you within a working day...
       <option value="Other">Other...</option>
     </select>
     <label for="note">Note</label>
-    <textarea rows="2" name="note" id="note" placeholder="Include any additional information (number or words/pages/endpoints), estimated project length, target dates and so on"></textarea>
+    <textarea rows="2" name="note" id="note" placeholder="Include any additional information..."></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="Send message">
   </fieldset>
   <input type="submit" value="Send">
