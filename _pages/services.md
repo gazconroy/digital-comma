@@ -15,6 +15,8 @@ classes: wide
 
 Do you need an Open API/Swagger or AsyncAPI tweaked or created from scratch? Digital Comma can write your API documentation and help reduce your developers workload so that they can focus on what they do best.
 
+SmaretBear's state of APS 2020...
+
 # Technical and business writing
 
 Digital Comma have created documentation sets and written content in various formats and on diverse subjects: websites, newsletters, intranets, ISO9000 compliance documentation, systems of policy and procedure, reports, code commenting, leaflets, brochures, online help, eLearning modules and more.
