@@ -12,7 +12,7 @@ author_profile: false
 
 {% include contact-info.md %}
 
-## Complete the form to seed the conversation
+# Complete the form to seed the conversation
 
 I will get back to you within a working day...
 
