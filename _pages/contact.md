@@ -3,8 +3,7 @@ title: Contact
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: assets/images/migration.jpg
-  teaser: assets/images/migration.jpg
+  overlay_image: assets/images/contact-us.jpg
 excerpt: How can Digital Comma help you?
 permalink: /contact.html
 classes: wide
