@@ -11,7 +11,7 @@ classes: wide
 author_profile: false
 ---
 
-{% include contact-info.html %}
+{% include contact-info.md %}
 
 ## Complete the form to seed the conversation
 
