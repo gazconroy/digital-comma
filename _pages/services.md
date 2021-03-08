@@ -15,7 +15,7 @@ classes: wide
 
 Do you need an Open API/Swagger or AsyncAPI tweaked or created from scratch? Digital Comma can write your API documentation and help reduce your developers workload so that they can focus on what they do best.
 
-Some [recent findings](https://smartbear.com/resources/ebooks/the-state-of-api-2020-report/) about the current state of APIs indicated that 'Only 32% of API providers feel that their organisation’s API documentation is above average'
+Some [recent findings](https://smartbear.com/resources/ebooks/the-state-of-api-2020-report/) about the current state of APIs indicated that 'Only 32% of API providers feel that their organisation’s API documentation is above average.'
 
 # Technical and business writing ![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/canvas.png){: .align-right}
 
