@@ -9,7 +9,6 @@ header:
   overlay_image: assets/images/time-travel.jpg
   teaser: assets/images/time-travel.jpg
 classes: wide
-comments: true
 excerpt: "I used to work as a technical writing blogger (guide) for the sadly-defunct About.com. Courtesy of the [Internet Archive](https://archive.org/), some of those articles are still ‘floating around’."
 row1:
 - image_path: assets/images/about-com/cost-benefit-analysis.jpg

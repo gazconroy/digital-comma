@@ -12,10 +12,12 @@ subtitle: "API documentation, technical writing and intranet management"
 email: info@digital-comma.com
 description: >- # this means to ignore newlines until "baseurl:"
   Where 'digital' meets 'communications'
-url: "https://gazconroy.github.io"
-baseurl: "/digital-comma"
+# Ater these messing with custom domain?
+# url: "https://gazconroy.github.io"
+# baseurl: "/digital-comma"
+# repository: "gazconroy/digital-comma"
 github_username: gazconroy
-repository: "gazconroy/digital-comma"
+
 
 teaser: /assets/images/fallback-teaser.png
 logo: "/assets/images/logo.png"
@@ -134,4 +136,4 @@ tag_archive:
 compress_html:
   clippings: all
   ignore:
-    envs: development  # disable compression in dev environment
+    envs: production  # development = disable compression

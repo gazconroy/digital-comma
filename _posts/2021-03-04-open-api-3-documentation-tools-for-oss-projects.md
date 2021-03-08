@@ -10,7 +10,6 @@ header:
 excerpt: There are a plethora of systems that you can use but many carry a cost and, for open source software, that's often a deal breaker
 layout: splash
 classes: wide
-comments: true
 ---
 
 There remain a few excellent options to choose from, each with their own strengths and features. Whatever your budget, I'd say that there's no such thing as a perfect OAS3 (Open API 3 specification) documentation tool. You need to decide what's most important to you and accept the compromises you must make.
