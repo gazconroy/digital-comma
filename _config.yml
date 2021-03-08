@@ -45,7 +45,6 @@ analytics:
     tracking_id: "GTM-NQWHCVC"
     anonymize_ip: false # default
 
-repository: gazconroy/digital-comma
 comments:
   provider: "utterances"
   utterances:
