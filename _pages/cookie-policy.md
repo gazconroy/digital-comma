@@ -22,12 +22,12 @@ Cookies are used for a variety of reasons detailed below. Unfortunately, in most
 This site uses cookies provided by the following trusted third parties.
 
 - **Google Anaytics.** This site uses Google Analytics, one of the most widespread and trusted analytics solutions on the web, to help understand how you use the site and ways that your experience can be improved. These cookies may track things such as how long you spend on the site and the pages that you visit so that Digital Comma can continue to produce engaging content. For more information on Google Analytics' cookies, see [their page](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage).
-- **Disqus.** This site uses Disqus to enable commenting on pages and posts. For more information on Disqus' cookies, see [their page](https://help.disqus.com/en/articles/1717155-use-of-cookies).
+- **GitHub.** This site uses GitHub to enable commenting on pages. For more information on GitHub cookies, see [their page](https://docs.github.com/en/github/site-policy/github-privacy-statement#our-use-of-cookies-and-tracking).
 - **Formspree**. This site uses Formspree for its contact form. For more information on Formspree's cookies, see [their page](https://formspree.io/legal/privacy-policy).
 
 ## How to disable cookies
 
-You can prevent the setting of cookies by adjusting the settings on your browser (see your browser's help system for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of the this site. Therefore it is recommended that you do not disable cookies.
+You can prevent the setting of cookies by adjusting the settings on your browser (see your browser's help system for details of how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of the this site. Therefore it is recommended that you do not disable cookies.
 
 ## More information
 
