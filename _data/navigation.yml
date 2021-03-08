@@ -1,4 +1,6 @@
 main:
+  - title: "Blog"
+    url: /
   - title: "Contact"
     url: /contact.html
   - title: "Services"
