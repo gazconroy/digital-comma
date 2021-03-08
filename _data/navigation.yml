@@ -1,9 +1,7 @@
 main:
-  - title: "Blog"
-    url: /posts/
   - title: "Contact"
-    url: /contact.md
+    url: /contact.html
   - title: "Services"
-    url: /services.md
+    url: /services.html
   - title: "Recent projects"
-    url: /projects.md
+    url: /projects.html
