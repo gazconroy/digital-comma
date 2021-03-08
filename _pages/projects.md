@@ -24,7 +24,7 @@ row1:
 - image_path: assets/images/unleash.png
   title: "Unleash"
   url: "https://github.com/Unleash/unleash/tree/master/docs/api/oas"
-  excerpt: "Unleash is one of the leading software feature flag systems. I generated their Open API specification (deployed using a combination of Redoc and Swagger UI) and also worked on some of their marketing materials]."
+  excerpt: "Unleash is one of the leading software feature flag systems. I generated their Open API specification (deployed using a combination of Redoc and Swagger UI) and also worked on some of their marketing materials."
   btn_label: "More on GitHub"
   btn_class: "btn--inverse"
 ---
