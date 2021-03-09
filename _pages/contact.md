@@ -14,14 +14,14 @@ sidebar:
     image_alt: "image"
     text: "Costs per project vary from £320 to £640 per day, depending upon the length and complexity of the work."
   - title: "Fixed costs"
-    text: "After you complete a *documentation plan*, I will be able to generate a fixed cost estimate (if that;s of interest)."
+    text: "After you complete a *documentation plan*, I can work out a fixed cost (if that's of interest)."
 
 
 ---
 
 # Technical writing services for any project
 
-If you are looking for someone who can explain technical things in simple terms, drop me a 'line'.
+If you are looking for someone who can create [API specifications, manage your internal online content](services.md) or just explain technical things in simple terms, drop me a 'line'.
 
 {% include contact-info.md %}
 
