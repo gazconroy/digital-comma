@@ -5,10 +5,23 @@ header:
   overlay_filter: "0.5"
   overlay_image: assets/images/contact-us.jpg
 excerpt: How can Digital Comma help you?
+
 permalink: /contact.html
 classes: wide
-author_profile: false
+sidebar:
+  - title: "Prices"
+    image: assets/images/string.jpg
+    image_alt: "image"
+    text: "Costs per project vary from £320 to £640 per day, depending upon the length and complexity of the work."
+  - title: "Fixed costs"
+    text: "After you complete a *documentation plan*, I will be able to generate a fixed cost estimate (if that;s of interest)."
+
+
 ---
+
+# Technical writing services for any project
+
+If you are looking for someone who can explain technical things in simple terms, drop me a 'line'.
 
 {% include contact-info.md %}
 
@@ -35,24 +48,21 @@ I will get back to you within a working day...
     </select>
     <select name="type" required="">
       <option value="Select" selected="" disabled="">Choose primary writing project type</option>
-      <option value="Async">AsyncAPI specification</option>
+      <option value="API">API documentation (Open API/Swagger, AsyncAPI, JSON schemas, REST, native) specification</option>
       <option value="Report">Business report</option>
       <option value="Install">Installation/setup instructions</option>
       <option value="InternalComms">Internal communications</option>
-      <option value="Intranet">Internal web-based documentation (intranet/knowledge base)</option>
+      <option value="Intranet">Internal web-based documentation (intranet/knowledge base/heal centre)</option>
       <option value="">Internal communications</option>
       <option value="CMS">Intranet/CMS support</option>
-      <option value="JSON">JSON schemas</option>
-      <option value="NativeAPI">Native API documentation</option>
-      <option value="OAS">Open API/Swagger specification</option>
+      <option value="Help">Online help</option>
       <option value="Reference">Reference guide</option>
-      <option value="MiscWebAPI">REST API specification (not Open API)</option>
       <option value="SLA">Service contracts/service level agreements</option>
       <option value="Service">Service instructions</option>
       <option value="Marketing">Technical marketing materials</option>        
-      <option value="Train">Training document</option>
+      <option value="Train">Training document/module</option>
       <option value="Module">Training module</option>
-      <option value="User">User manual</option>
+      <option value="User">UX documentation</option>
       <option value="Web">Web-based (public) documentation</option>
       <option value="Other">Other...</option>
     </select>
