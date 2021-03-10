@@ -41,7 +41,7 @@ Note that I'm only considering Open API **3** tools here so will not cover Open 
 
 # What if you are willing to 'splash the cash'
 
-The commercial realm often offers far more than the free options: code generation, extended documentation tools, integration with Git repositories, advanced Open API editing, multi-user collaboration, mocking servers and so on. The standouts for me being:
+The commercial realm often offers far more than the free options: code generation, extended documentation tools, integration with Git repositories, version control, advanced Open API editing, multi-user collaboration, mocking servers and so on. The standouts for me being:
 
 - **[Stoplight](https://stoplight.io/welcome)** - for its unparalleled Open API editor and intelligent integration with Git repositories
 - **[SwaggerHub](https://app.swaggerhub.com/)** - for its integrated tooling (SmartBear/SwaggerHub is Open API central, after all)

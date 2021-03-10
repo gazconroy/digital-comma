@@ -63,7 +63,7 @@ Create a list and call it ‘Workbench’ with the fields:
 
 # Create 'feeder' workflows
 
-![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/feeder.png){: .align-right} In the example given on this page, there are three types of author requests:
+!["Create a page approval flow"]({{ site.url }}{{ site.baseurl }}/assets/images/feeder.png){: .align-right} In the example given on this page, there are three types of author requests:
 
 - Approve (review and publish)
 - Review (but don't publish)
@@ -71,7 +71,7 @@ Create a list and call it ‘Workbench’ with the fields:
 
 Which means that for every site's 'Site Pages' library, you need to [configure page approval flow](https://support.microsoft.com/en-us/office/configure-page-approval-using-power-automate-14ce6976-a0a7-427b-b4ab-d28d344a5222) three times. Give each approval flow a unique name (like '*Publish [sitename] site page*') and an approver (you, initially, but you can edit/add as many as you like later).
 
-## ![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/publish-workflow.png){: .align-right} First, edit your 'publish' workflow
+## !["Edit the PUBLISH workflow"]({{ site.url }}{{ site.baseurl }}/assets/images/publish-workflow.png){: .align-right} First, edit your 'publish' workflow
 
 1. Open Power Automate to edit your new 'Publish' workflow
 2. **Delete** the *Send me an email notification* step.
@@ -101,7 +101,7 @@ Which means that for every site's 'Site Pages' library, you need to [configure 
     - **Etag** is *ETag* (from the 'dynamic content' list)
     - **File identifier** is ID (from the 'dynamic content' list in the 'Get file properties' section).
 
-    ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/create-item.png)
+    !["Create item"]({{ site.url }}{{ site.baseurl }}/assets/images/create-item.png)
 
 8. **Copy** the Scope2 field to your clipboard (this cut-and-paste will speed things up for the other two workflows)
 9. Click **Save**.
@@ -128,7 +128,7 @@ Rather than go into too much detail here, I've annotated the Power Automate flow
 **A word of caution** - Power Automate seems particularly resource intensive and crash-happy with email steps so make sure you save after you add each of yours.
 {: .notice--warning}
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/primary-workflow.png)
+!["The primary workflow"]({{ site.url }}{{ site.baseurl }}/assets/images/primary-workflow.png)
 
 ## A quick aside: clean your workbench (list)
 
@@ -147,7 +147,7 @@ As it stands, the workbench list isn't very useful as a human-readable audit tra
 **Tip.** Add workbench to your site menu for owners and members (editors and authors).
 {: .notice--success}
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/workbench.png)
+!["Tidy up the workbench list"]({{ site.url }}{{ site.baseurl }}/assets/images/workbench.png)
 
 # Create workbench app
 
@@ -155,7 +155,7 @@ Microsoft's Power Apps have a useful direct connection to SharePoint lists which
 
 However, for your workbench app, I'd suggest adding individual fields one-by-one to a gallery (it's a much less frustrating experience overall).
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/let-it-flow-app.png)
+!["The workbench app"]({{ site.url }}{{ site.baseurl }}/assets/images/let-it-flow-app.png)
 
-**Important.** Once you've created your workbench app, make sure you share it with the people you want to use it (most likely your publishers/editors).
+**Important.** Once you've created your workbench app, make sure you share it with the people you want to use it (most likely your publishers and editors).
 {: .notice--warning}

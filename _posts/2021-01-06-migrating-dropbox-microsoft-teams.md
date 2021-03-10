@@ -27,7 +27,7 @@ This example procedure uses **Mover** to do the heavy lifting between DropBox an
 - **Sources:** Amazon S3, Azure Blob, Box, Dropbox, Egnyte, Google Suite/Drive, SharePoint, OneDrive
 - **Destinations:** Azure Blob, Microsoft 365 (OneDrive/SharePoint/Teams), OneDrive (business and consumer).
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/dropbox-migrate.png)
+!["Overview of migration"]({{ site.url }}{{ site.baseurl }}/assets/images/dropbox-migrate.png)
 
 # Preparation
 
@@ -83,7 +83,7 @@ If there are Dropbox files that general users don't normally see, replicate this
 If you have set up a private channel or more than one channel, these will require different links (so repeat steps 2 to 4 for them).
 {: .notice--primary}
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/mover-spreadsheet.png)
+!["The migration spreadsheet"]({{ site.url }}{{ site.baseurl }}/assets/images/mover-spreadsheet.png)
 
 # Actually moving the stuff
 
@@ -102,4 +102,4 @@ There will be some 'technical admin' required when [setting up connectors](https
 
 At the end of this process, your users should find their individual files in their personal OneDrive accounts. All generic files will be in your Microsoft 365 team in the folders you specified.
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/mover.png)
+!["Mover screenshot"]({{ site.url }}{{ site.baseurl }}/assets/images/mover.png)
