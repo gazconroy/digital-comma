@@ -1,6 +1,10 @@
 ---
 permalink: /cookie-policy.html
 title: "Cookie policy"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: assets/images/cookies.jpg
 excerpt: "What information cookies gather, how the site use them and why it is sometimes necessary to store them"
 ---
 
