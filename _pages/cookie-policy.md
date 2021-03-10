@@ -5,7 +5,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: assets/images/cookies.jpg
-excerpt: "What information cookies gather, how the site use them and why it is sometimes necessary to store them"
+excerpt: "What information cookies gather, how this site uses them and why it is sometimes necessary to store them"
 ---
 
 # [Digital Comma's](https://digital-comma.com/) policy
@@ -39,4 +39,4 @@ You can prevent the setting of cookies by adjusting the settings on your browser
 
 <p>Hopefully that has clarified things for you, If there is something that you aren't sure whether you need or not, it's usually safer to leave cookies enabled to ensure you can use all the site's features.
 
-However if you are still want more information, send an email to <info@digital-comma.com>
+However if you are still want more information, send an email to info@digital-comma.com

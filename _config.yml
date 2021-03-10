@@ -104,6 +104,9 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-at"
       url: "mailto:info@digital-comma.com"
+    - label: "Cookie policy"
+      icon: "fas fa-fw fa-cookie"
+      url: "https://digital-comma.com/cookie-policy.html"  
 
 defaults:
   # _posts
