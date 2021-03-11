@@ -10,7 +10,7 @@ permalink: /contact.html
 classes: wide
 sidebar:
   - title: "Prices"
-    image: assets/images/string.jpg
+    image: assets/images/money-banner.jpg
     image_alt: "image"
     text: "Costs vary from £300 to £650 per day, depending upon the length of the project and complexity of the work."
   - title: "Fixed costs"
