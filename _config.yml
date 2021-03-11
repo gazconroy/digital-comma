@@ -1,0 +1,143 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+locale: "en-GB"
+title: Digital Comma
+subtitle: "API documentation, technical writing and intranet management"
+email: info@digital-comma.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Where 'digital' meets 'communications'
+# These were messing with custom domain so commented out
+# url: "https://gazconroy.github.io"
+# baseurl: "/digital-comma"
+# repository: "gazconroy/digital-comma"
+github_username: gazconroy
+
+
+teaser: /assets/images/fallback-teaser.png
+logo: "/assets/images/logo.png"
+
+search: true
+
+markdown: kramdown
+
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: default
+
+# Output
+permalink: none
+paginate: 4 # amount of posts to show
+paginate_path: /page:num/
+timezone: GB
+breadcrumbs: true
+
+search_provider: algolia
+algolia:
+  application_id: WR91W1HO65
+  index_name: prod_digital-comma
+  search_only_api_key: 018663ac9b4509bbacab9489df1a7bdf
+  powered_by: true
+  files_to_exclude: []
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "GTM-NQWHCVC"
+    anonymize_ip: false # default
+
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+
+include:
+  - _pages
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-archives
+  - jekyll-seo
+
+author:
+  name   : "Gary Conroy"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Technical writer specialising in APIs, intranet, digital workplace, technical content delivery"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://digital-comma.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/garyconroy/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gazconroy"
+    - label: "Email"
+      icon: "fas fa-fw fa-at"
+      url: "mailto:info@digital-comma.com"
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/garyconroy/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gazconroy"
+    - label: "Email"
+      icon: "fas fa-fw fa-at"
+      url: "mailto:info@digital-comma.com"
+    - label: "Cookie policy"
+      icon: "fas fa-fw fa-cookie"
+      url: "https://digital-comma.com/cookie-policy.html"  
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: production  # development = disable compression
