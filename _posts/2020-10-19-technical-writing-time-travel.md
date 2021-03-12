@@ -8,6 +8,8 @@ header:
   overlay_filter: "0.5"
   overlay_image: assets/images/time-travel.jpg
   teaser: assets/images/time-travel.jpg
+image:
+  feature: time-travel.jpg
 classes: wide
 excerpt: "I used to work as a technical writing blogger (guide) for the sadly-defunct About.com. Courtesy of the [Internet Archive](https://archive.org/), some of those articles are still ‘floating around’."
 row1:
