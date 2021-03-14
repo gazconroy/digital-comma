@@ -25,7 +25,7 @@ Cookies are used for a variety of reasons detailed below. Unfortunately, in most
 
 This site uses cookies provided by the following trusted third parties.
 
-- **Google Analytics.** This site uses Google Analytics, one of the most widespread and trusted analytics solutions on the web, to help understand how you use the site and ways that your experience can be improved. These cookies may track things such as how long you spend on the site and the pages that you visit so that Digital Comma can continue to produce engaging content. [*Official reference*](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage).
+- **Google Analytics.** This site uses Google Analytics to help understand how people use the site and ways that your experience can be improved. These cookies track things such as how long you spend on the site and the pages that you visit. [*Official reference*](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage).
 - **GitHub.** This site uses GitHub to enable commenting on pages. [*Official reference*](https://docs.github.com/en/github/site-policy/github-privacy-statement#our-use-of-cookies-and-tracking).
 - **Formspree**. This site uses Formspree for its contact form. [*Official reference*](https://formspree.io/legal/privacy-policy).
 - **Algolia search**. This site uses Algolia cookies to optimise the its search function. The cookie ensures accurate and fast search results. [*Official reference*](https://www.algolia.com/policies/privacy/#:~:text=Cookies,-Algolia%20and%20our&text=You%20can%20control%20the%20use,.com%2Fpolicies%2Fcookies.).
@@ -33,10 +33,10 @@ This site uses cookies provided by the following trusted third parties.
 
 ## How to disable cookies
 
-You can prevent the setting of cookies by adjusting the settings on your browser (see your browser's help system for details of how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of the this site. Therefore it is recommended that you do not disable cookies.
+You can prevent the setting of cookies by adjusting the settings on your browser (see your browser's help system for details of how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies usually disables certain functionality and features of the this site. For that reason, it is recommended that you do not disable them.
 
 ## More information
 
-<p>Hopefully that has clarified things for you, If there is something that you aren't sure whether you need or not, it's usually safer to leave cookies enabled to ensure you can use all the site's features.
+<p>If there is something that you aren't sure whether you need or not, it's usually safer to leave cookies enabled to ensure you can use all the site's features.
 
-However if you are still want more information, send an email to info@digital-comma.com
+If you still want more information, send an email to info@digital-comma.com

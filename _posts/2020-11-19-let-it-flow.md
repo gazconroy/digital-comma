@@ -69,7 +69,7 @@ Create a list and call it ‘Workbench’ with the fields:
 - Review (but don't publish)
 - Delete
 
-Which means that for every site's 'Site Pages' library, you need to [configure page approval flow](https://support.microsoft.com/en-us/office/configure-page-approval-using-power-automate-14ce6976-a0a7-427b-b4ab-d28d344a5222) three times. Give each approval flow a unique name (like '*Publish [sitename] site page*') and an approver (you, initially, but you can edit/add as many as you like later).
+This means that for every site's 'Site Pages' library, you need to [configure page approval flow](https://support.microsoft.com/en-us/office/configure-page-approval-using-power-automate-14ce6976-a0a7-427b-b4ab-d28d344a5222) three times. Give each approval flow a unique name (like '*Publish [sitename] site page*') and an approver (you, initially, but you can edit/add as many as you like later).
 
 ## !["Edit the PUBLISH workflow"]({{ site.url }}{{ site.baseurl }}/assets/images/publish-workflow.png){: .align-right} First, edit your 'publish' workflow
 
@@ -115,7 +115,7 @@ Which means that for every site's 'Site Pages' library, you need to [configure 
 
 ## Test
 
-At this stage,  your authors can request pages to be reviewed, deleted or published but all that happens for now is that their requests are recorded in the Workbench list. The 'doing' of these requests comes in the 'primary workflow' section, below.
+At this stage,  your authors can request pages to be reviewed, deleted or published but all that happens, for now, is that their requests are recorded in the Workbench list. The 'doing' of these requests comes in the 'primary workflow' section, below.
 
 However, both to ensure that your workflows are working correctly and to help you get a grasp of what is happening, I'd suggest a bit of testing. That's as simple as creating one or more of each approval requests: Publish, Delete and Review. After each review request, check the Workbench list to ensure the right kinds of things are being recorded.
 
@@ -125,7 +125,7 @@ You do need to wait a little time for the flows to run (I'm seeing up to a minut
 
 Rather than go into too much detail here, I've annotated the Power Automate flow to give you an idea of what's happening. You will need that email text you copied previously for pasting into the email notifications.
 
-**A word of caution** - Power Automate seems particularly resource intensive and crash-happy with email steps so make sure you save after you add each of yours.
+**A word of caution** - Power Automate seems particularly resource-intensive and crash-happy with email steps so make sure you save after you add each of yours.
 {: .notice--warning}
 
 !["The primary workflow"]({{ site.url }}{{ site.baseurl }}/assets/images/primary-workflow.png)
@@ -151,7 +151,7 @@ As it stands, the workbench list isn't very useful as a human-readable audit tra
 
 # Create workbench app
 
-Microsoft's Power Apps have a useful direct connection to SharePoint lists which makes generating apps from such data sources much simpler. If you are new to Power Apps, check out [Audrie Gordon's video 'walkthrough'](https://youtu.be/JhomcXZaa28) to get a grasp for the basics.
+Microsoft's Power Apps have a useful direct connection to SharePoint lists which makes generating apps from such data sources much simpler. If you are new to Power Apps, check out [Audrie Gordon's video 'walkthrough'](https://youtu.be/JhomcXZaa28) to get a grasp of the basics.
 
 However, for your workbench app, I'd suggest adding individual fields one-by-one to a gallery (it's a much less frustrating experience overall).
 

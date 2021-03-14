@@ -20,7 +20,7 @@ A team is using a single DropBox account for document sharing and collaboration 
 
 ## The solution? Mover
 
-There are many ways to skin this 'cat' and if your file movement needs are small, this is overkill but if yu have many users and/or many files,
+There are many ways to skin this 'cat' and if your file movement needs are small, this is overkill but if you have many users and/or many files,
 
 This example procedure uses **Mover** to do the heavy lifting between DropBox and Teams/OneDrive. However, Mover can be configured to use a variety of sources and destinations:
 
@@ -100,6 +100,6 @@ There will be some 'technical admin' required when [setting up connectors](https
 8. Click the **Tags** column to move the list of migrations to the top of the table. Highlight (tick) all the items you just added (they will be tagged with something like 'csv migration.csv')
 9. Click the **Scan x Users** button. When the scan is complete for all rows (and this scanning can take quite some time - be prepared for hours, not minutes), click **Start Migrating x Users**.
 
-At the end of this process, your users should find their individual files in their personal OneDrive accounts. All generic files will be in your Microsoft 365 team in the folders you specified.
+At the end of this process, your users should find their Dropbox files have been moved to their OneDrive accounts. All generic files will be in your Microsoft 365 team in the folders you specified.
 
 !["Mover screenshot"]({{ site.url }}{{ site.baseurl }}/assets/images/mover.png)
