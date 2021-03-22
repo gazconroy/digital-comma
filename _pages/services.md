@@ -1,7 +1,6 @@
 ---
 title: Services
 permalink: /services.html
-author_profile: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -9,6 +8,14 @@ header:
   teaser: assets/images/man-typing.jpg
 excerpt: What can Digital Comma do for you?
 classes: wide
+
+sidebar:
+  - title: "Prices"
+    image: assets/images/money-banner.jpg
+    image_alt: "image"
+    text: "Costs vary from £300 to £650 per day, depending upon the length of the project and complexity of the work."
+  - title: "Fixed costs"
+    text: "After you complete a *documentation plan*, I can work out a fixed cost (if that's of interest)."
 ---
 
 # Web APIs ![APIs]({{ site.url }}{{ site.baseurl }}/assets/images/apis.png){: .align-right}

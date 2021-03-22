@@ -5,18 +5,8 @@ header:
   overlay_filter: "0.5"
   overlay_image: assets/images/contact-us.jpg
 excerpt: How can Digital Comma help you?
-
 permalink: /contact.html
 classes: wide
-sidebar:
-  - title: "Prices"
-    image: assets/images/money-banner.jpg
-    image_alt: "image"
-    text: "Costs vary from £300 to £650 per day, depending upon the length of the project and complexity of the work."
-  - title: "Fixed costs"
-    text: "After you complete a *documentation plan*, I can work out a fixed cost (if that's of interest)."
-
-
 ---
 
 # Technical writing services for any project
