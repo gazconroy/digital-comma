@@ -11,7 +11,7 @@ classes: wide
 row1:
 - image_path: assets/images/lemmy.png
   title: "LemmyNet"
-  url: "https://github.com/LemmyNet/joinlemmy-site/tree/main/static/scripts"
+  url: "https://github.com/LemmyNet/joinlemmy-site/tree/main/src/assets/scripts"
   excerpt: "Lemmy is an open source link aggregator (like *Reddit*). I generated an AsyncAPI specification for their WebSocket interface"
   btn_label: "More on GitHub..."
   btn_class: "btn--inverse"
