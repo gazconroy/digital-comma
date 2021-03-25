@@ -71,7 +71,7 @@ Create a list and call it ‘Workbench’ with the fields:
 
 This means that for every site's 'Site Pages' library, you need to [configure page approval flow](https://support.microsoft.com/en-us/office/configure-page-approval-using-power-automate-14ce6976-a0a7-427b-b4ab-d28d344a5222) three times. Give each approval flow a unique name (like '*Publish [sitename] site page*') and an approver (you, initially, but you can edit/add as many as you like later).
 
-## !["Edit the PUBLISH workflow"]({{ site.url }}{{ site.baseurl }}/assets/images/publish-workflow.png){: .align-right} First, edit your 'publish' workflow
+## First, edit your 'publish' workflow
 
 1. Open Power Automate to edit your new 'Publish' workflow
 2. **Delete** the *Send me an email notification* step.
