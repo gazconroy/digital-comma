@@ -76,6 +76,9 @@ This means that for every site's 'Site Pages' library, you need to [configure p
 1. Open Power Automate to edit your new 'Publish' workflow
 2. **Delete** the *Send me an email notification* step.
 3. Open (click) the **Scope 2** step
+
+    !["Edit the PUBLISH workflow"]({{ site.url }}{{ site.baseurl }}/assets/images/publish-workflow.png)
+
 4. Copy out the *Body* text from the **Send me an email notification 2** step. Save this text in a file (for access later)
 5. While still in *Scope 2*, **delete** the last three steps:
 
