@@ -11,9 +11,9 @@ classes: wide
 row1:
 - image_path: assets/images/lemmy.png
   title: "LemmyNet"
-  url: "https://github.com/LemmyNet/joinlemmy-site/tree/main/src/assets/scripts"
+  url: "https://join.lemmy.ml/api/index.html"
   excerpt: "Lemmy is an open source link aggregator (like *Reddit*). I generated an AsyncAPI specification for their WebSocket interface"
-  btn_label: "More on GitHub..."
+  btn_label: "See the AsyncAPI specification 'document'"
   btn_class: "btn--inverse"
 - image_path: assets/images/opa.png
   title: "Open Policy Agent (OPA)"
@@ -23,9 +23,9 @@ row1:
   btn_class: "btn--inverse"
 - image_path: assets/images/unleash.png
   title: "Unleash"
-  url: "https://github.com/Unleash/unleash/tree/master/docs/api/oas"
+  url: "http://unleash.herokuapp.com/oas/"
   excerpt: "Unleash is one of the leading software feature flag systems. I generated their Open API specification (deployed using a combination of Redoc, Swagger UI and Postman) and also worked on some of their marketing materials."
-  btn_label: "More on GitHub"
+  btn_label: "See the Open API specification 'document'"
   btn_class: "btn--inverse"
 ---
 
