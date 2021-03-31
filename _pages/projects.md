@@ -9,13 +9,13 @@ header:
 excerpt: Examples of Digital Comma's recent work
 classes: wide
 row1:
-- image_path: assets/images/lemmy.png
-  title: "LemmyNet"
+- image_path: assets/images/shortify.png
+  title: "Shortify"
   url: "https://petstore.swagger.io/?url=https://raw.githubusercontent.com/sprakash57/shortify/master/server/oas/openapi.yaml"
   excerpt: "Shortify converts a long URL into an eight-character 'shorty'. I generated their Open API specification in Swagger UI."
   btn_label: "See the Open API specification 'document'"
   btn_class: "btn--inverse"
-- image_path: assets/images/shortify.png
+- image_path: assets/images/lemmy.png
   title: "LemmyNet"
   url: "https://join.lemmy.ml/api/index.html"
   excerpt: "Lemmy is an open source link aggregator (similar to *Reddit*). I generated an AsyncAPI specification for their WebSocket interface"
