@@ -140,7 +140,7 @@ CurrentlyWithPostcode | String | GY4 6HE | A brief description (link to central 
 
 Replace the placeholders, between the asterisk - * - characters, with *actual* values (see *Request parameters* above for guidance).
 
-{% highlight <lang> [xml]%}
+{% highlight xml %}
 <?xml version="1.0" encoding="utf-8"?>
 <soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
     <soap12:Body>
@@ -158,7 +158,7 @@ Replace the placeholders, between the asterisk - * - characters, with *actual* v
 
 ### Request headers
 
-{% highlight <lang> [http]%}
+{% highlight http %}
 Content-Type: text/xml; charset=utf-8
 {% endhighlight %}
 
@@ -168,7 +168,7 @@ Content-Type: text/xml; charset=utf-8
 
 Replace the placeholders, between the asterisk - * - characters, with *actual* values (see *Request parameters* above for guidance).
 
-{% highlight <lang> [xml]%}
+{% highlight xml %}
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
     <soap:Body>
@@ -184,13 +184,13 @@ Replace the placeholders, between the asterisk - * - characters, with *actual* v
 
 ### Request headers
 
-{% highlight <lang> [http]%}
+{% highlight http %}
 Content-Type: text/xml; charset=utf-8
 {% endhighlight %}
 
 ## Example response (SOAP 1.1 and 1.2)
 
-{% highlight <lang> [xml]%}
+{% highlight xml %}
 <objEinInfoGetReturn xmlns="http://pro-cloud.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <intErrorId>0</intErrorId>
     <strErrorMsg/>
