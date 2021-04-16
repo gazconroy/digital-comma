@@ -45,10 +45,10 @@ algolia:
   nodes_to_index: 'p,blockquote,li,div.paragraph,page__lead'
   files_to_exclude: []
   settings:
-    searchableAttributes:                                                        
-      - title                                                                    
-      - unordered(content)                                                       
-      - unordered(categories)
+    searchableAttributes:
+      - title                                                                    
+      - unordered(content)                                                       
+      - unordered(categories)
       - page__lead
     attributesToHighlight:                                                       
       - categories                                                               
