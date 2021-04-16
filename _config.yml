@@ -75,7 +75,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-archives
-  - jekyll-seo
+  - jekyll-seo-tag
 
 author:
   name   : "Gary Conroy"
