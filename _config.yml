@@ -42,6 +42,7 @@ algolia:
   index_name: prod_digital-comma
   search_only_api_key: 018663ac9b4509bbacab9489df1a7bdf
   powered_by: true
+  nodes_to_index: 'p,blockquote,li,div.paragraph,.page__lead'
   files_to_exclude: []
 
 analytics:
