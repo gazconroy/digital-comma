@@ -48,7 +48,8 @@ algolia:
     searchableAttributes:                                                        
       - title                                                                    
       - unordered(content)                                                       
-      - unordered(categories)                                                    
+      - unordered(categories)
+      - page__lead
     attributesToHighlight:                                                       
       - categories                                                               
       - content                                                                  
