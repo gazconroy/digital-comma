@@ -42,8 +42,24 @@ algolia:
   index_name: prod_digital-comma
   search_only_api_key: 018663ac9b4509bbacab9489df1a7bdf
   powered_by: true
-  nodes_to_index: 'p,blockquote,li,div.paragraph,.page__lead'
+  nodes_to_index: 'p,blockquote,li,div.paragraph,page__lead'
   files_to_exclude: []
+  settings:
+    searchableAttributes:                                                        
+      - title                                                                    
+      - unordered(content)                                                       
+      - unordered(categories)                                                    
+    attributesToHighlight:                                                       
+      - categories                                                               
+      - content                                                                  
+      - headings                                                                 
+      - html
+      - title                                                                    
+    attributesToSnippet:                                                         
+      - excerpt_text:55                                                          
+    attributesForFaceting:                                                       
+      - searchable(categories)                                                   
+      - searchable(title)
 
 analytics:
   provider: "google-gtag"
