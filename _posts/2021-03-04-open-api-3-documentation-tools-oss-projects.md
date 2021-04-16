@@ -12,7 +12,7 @@ layout: splash
 classes: wide
 ---
 
-There remain a few excellent options to choose from, each with individual strengths and features. Whatever your budget, I'd say that there's no such thing as a perfect OAS3 (Open API 3 specification) documentation tool. You need to decide what's most important to you and accept the compromises you must make.
+There are a few excellent options to choose from, each with individual strengths and features. Whatever your budget, I'd say that there's no such thing as a perfect OAS3 (Open API 3 specification) documentation tool. You need to decide what's most important to you and accept the compromises you must make.
 
 Note that I'm only considering Open API **3** tools here so will not cover Open API 2 tools like *Dapperdox* and *Apiary*.
 {: .notice--info}
