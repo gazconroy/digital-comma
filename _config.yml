@@ -44,6 +44,8 @@ algolia:
   powered_by: true
   nodes_to_index: 'p,li,div.paragraph,p.page__lead'
   files_to_exclude: []
+  max_record_size: 20000
+  indexing_batch_size: 2500
   settings:
     searchableAttributes:
       - title
