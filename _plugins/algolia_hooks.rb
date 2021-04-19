@@ -24,9 +24,7 @@ module Jekyll
           # Do not index show date flag
           return nil if node.matches?('.show_date')
           # Do not index header styling
-          return nil if node.matches?('.header.overlay_color')
-          return nil if node.matches?('.header.overlay_filter')
-          return nil if node.matches?('.header.teaser')
+          return nil if node.matches?('.header')
           # Do not index page class or type
           return nil if node.matches?('.classes')
           return nil if node.matches?('.type')
@@ -44,13 +42,11 @@ module Jekyll
           # Do not index date
           return nil if node.matches?('.date')
           # Do not index ranking
-          return nil if node.matches?('.custom_ranking.position')
-          return nil if node.matches?('.custom_ranking.heading')
+          return nil if node.matches?('.custom_ranking')
           # Do not index HTML version of excerpt
           return nil if node.matches?('.excerpt_html')
           # Do not index weird stuff
           return nil if node.matches?('.entries_layout')
-          return nil if node.matches?('.objectID')
           record
         end
       end
