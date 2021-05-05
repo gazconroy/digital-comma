@@ -1,5 +1,5 @@
 ---
-layout: places
+layout: splashplace
 title: Make client-side API calls from your browser using JavaScript
 permalink: /places.html
 header:
@@ -9,6 +9,10 @@ header:
 excerpt: Without succumbing to the dreaded CORS!
 ---
 
+## Notes
+
+- Add map css to main.scss
+- Add place.js to
 ## Long story...short
 
 If you've ever tried to connect to a REST API using client-side code (as in code that runs in your browser), it's highly likely you have run into a [CORS (cross-origin resource sharing)](https://youtu.be/4KHiSt0oLJ0) issue.
@@ -35,7 +39,7 @@ One of the benefits of using _fetch_ to access a REST API is the standardisation
 
 #### In Postman
 
-![In Postman](postman.png)
+![In Postman](assets/images/postman.png)
 
 #### In JavaScript 
 
@@ -76,5 +80,3 @@ function findRestaurant(location, name) {
  
 
 ## The two APIs combined: "Popular places for food (according to Foursquare)"
-
-<div id="map"></div>
