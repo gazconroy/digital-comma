@@ -83,4 +83,4 @@ The advantages of using a system's provided SDK instead of a REST API (whether t
 
 However, if there is no SDK for your preferred development platform, a REST API may be your only option. For REST APIs, there's also the significant advantage in the a degree of clarity that comes from a standardised approach.
  
-## The two APIs combined: "Popular places for food in your atrea (from Foursquare, on a Google map)"
+## The two APIs combined: "Popular places for food in your area (from Foursquare, on a Google map)"
