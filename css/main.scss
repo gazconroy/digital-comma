@@ -3,9 +3,9 @@
 
 @charset "utf-8";
 
-#map {
-    padding-bottom: 60%;
-}
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+#map .responsive-video-container {
+    padding-bottom: 60%;
+}
