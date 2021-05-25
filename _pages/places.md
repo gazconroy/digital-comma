@@ -1,47 +1,29 @@
 ---
 layout: splashplace
-title: Make client-side API calls from your browser using JavaScript
+title: Writing human-readable JavaScript for APIs
 permalink: /places.html
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: assets/images/javascript.jpg
-excerpt: Without succumbing to the dreaded CORS!
+excerpt: URLSearchParams allows you to compose easy-to-undetstand API calls
 ---
 
 ## Notes
 
 - Add map css to main.scss
 - Add place.js to
-## Long story...short
+- Use environment variables
 
-If you've ever tried to connect to a REST API using client-side code (as in code that runs in your browser), it's highly likely you have run into a [CORS (cross-origin resource sharing)](https://youtu.be/4KHiSt0oLJ0) issue.
+## Use UrlSearchParams to keep code readable
 
-## How to get around this (client-side, not server-side)?
+JavaScript's [UrlSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) function lets you compose API calls that would be recognisable as a set of [Postman](https://www.postman.com/) key/value parameters. For example:
 
-Two options:
+### In Postman
 
-- Use the system's SDK/library. With SDKs, there is no standard like Open API to follow, so you are often at the mercy of the system's providers to both generate and document a series of commands that will do what you want. 
-- If the system doesn't have an SDK or library, use JavaScript's [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) request to access their REST API.
+![In Postman](../assets/images/postman.png)
 
-Using a system's provided SDK is almost always preferred to accesing an API with [CRUD](https://blogs.mulesoft.com/dev-guides/api-design/api-best-practices-nouns-crud-etc/) commands since it will:
-
-- Have any deployment issues (such as CORS) sorted out
-- Be faster and more conservative with use of resources
-- Have more commands
-- Be free of any constraints inmposed by a standard API specification.
-
-However, if there is no SDK for your preferred development platform, _fetch_ may be your best option.
-
-### Use UrlSearchParams to keep code readable
-
-One of the benefits of using _fetch_ to access a REST API is the standardisation of approach. To show off that standardisation, JavaScript's [UrlSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) function lets you compose API calls that would be recognisable as a set of [Postman](https://www.postman.com/) key/value parameters. For example:
-
-#### In Postman
-
-![In Postman](assets/images/postman.png)
-
-#### In JavaScript 
+### In JavaScript 
 
 {% highlight javascript %}
 const query = new URLSearchParams({
@@ -59,7 +41,7 @@ const query = new URLSearchParams({
 
 ### Something similar in an SDK (Google Places Library)
 
-With a REST API, a degree of clarity comes from the standardisation of approach (whether that be Open API, a Postman collection or some other standard). With SDKs, you rely a little more on the documentation being clear.
+Often, an [SDK](https://en.wikipedia.org/wiki/Software_development_kit) is not as intuitive or broadly understood as a standard like [Open API](https://en.wikipedia.org/wiki/Open_API). With SDKs, you rely a little more on the documentation being clear.
 
 {% highlight javascript %}
 // Find a food venue
@@ -77,6 +59,28 @@ function findRestaurant(location, name) {
   service.nearbySearch(request, addMarker);
 }
 {% endhighlight %}
- 
 
-## The two APIs combined: "Popular places for food (according to Foursquare)"
+## Make client-side API calls from your browser using JavaScript
+
+_Without succumbing to the dreaded CORS!_
+
+If you've ever tried to connect to a REST API using client-side code (as in code that runs in your browser), it's highly likely you have run into a [CORS (cross-origin resource sharing)](https://youtu.be/4KHiSt0oLJ0) issue.
+
+### Two ways to get around this (client-side, not server-side)
+
+- Use the system's SDK/library. With SDKs, there is no standard like Open API to follow, so you are often at the mercy of the system's providers to both generate and document a series of commands that will do what you want. 
+- If the system doesn't have an SDK or library, use JavaScript's [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) request to access their REST API.
+
+## SDK versus REST API
+
+The advantages of using a system's provided SDK instead of a REST API (whether that be Open API, a Postman collection or some other standard) are that it will:
+
+- Have no deployment issues (such as CORS)
+- Be faster
+- Be more conservative with its use of resources
+- Have more commands
+- Be free of any constraints imposed by a standard API specification.
+
+However, if there is no SDK for your preferred development platform, a REST API may be your only option. For REST APIs, there's also the significant advantage in the a degree of clarity that comes from a standardised approach.
+ 
+## The two APIs combined: "Popular places for food in your atrea (from Foursquare, on a Google map)"
