@@ -5,11 +5,7 @@
 
 #map {
     padding-bottom: 60%;
-    position:relative;
-    overflow:hidden;
 }
-
-
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
