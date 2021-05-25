@@ -10,9 +10,6 @@ excerpt: URLSearchParams allows you to compose easy-to-undetstand API calls
 ---
 
 ## Notes
-
-- Add map css to main.scss
-- Add place.js to
 - Use environment variables
 
 ## Use UrlSearchParams to keep code readable
