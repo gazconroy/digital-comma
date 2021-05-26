@@ -11,6 +11,7 @@ excerpt: URLSearchParams allows you to compose easy-to-undetstand API calls
 
 ## Notes
 - Use environment variables
+- ALGOLIA_API_KEY: {{ site.env.ALGOLIA_API_KEY }}
 
 ## Use UrlSearchParams to keep code readable
 

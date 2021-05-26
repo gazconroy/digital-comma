@@ -95,6 +95,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-archives
   - jekyll-seo-tag
+  - jekyll-environment-variables
 
 author:
   name   : "Gary Conroy"
