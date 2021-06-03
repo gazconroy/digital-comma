@@ -24,8 +24,8 @@ function fourSquare() {
   navigator.geolocation.getCurrentPosition((position) => {
     // Build a query string from key/value pairs for the Foursquare REST API
     const query = new URLSearchParams({
-      client_id: "YQLM2QOQW0TQFQNABM12GSIY4SAKS4CSL5DHN2IDTVL4LCX2",
-      client_secret: "DY5Q04VF4CJ3GEQ50XNFKWXQTDRX3N4RFKNJ3MY3TNXE2ZOV",
+      client_id: config.CLIENT_ID,
+      client_secret: config.CLIENT_SECRET,
       v: "20210201", // All Foursquare API calls need a version. See https://developer.foursquare.com/docs/places-api/versioning/
       ll: position.coords.latitude + "," + position.coords.longitude, // User's latitude and longitude
       intent: "browse", // Find all venues with the defined 'radius' of 'll'

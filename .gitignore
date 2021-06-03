@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 .zshrc
 Gemfile.lock
+assets/js/config.js
