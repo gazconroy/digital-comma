@@ -7,6 +7,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: assets/images/javascript.jpg
+  teaser: assets/images/javascript.jpg
 excerpt: URLSearchParams allows you to compose easy-to-understand API calls
 ---
 
