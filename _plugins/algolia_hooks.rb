@@ -15,10 +15,6 @@ module Jekyll
           return nil if node.matches?('.author_profile')
           # Do not index page permalink
           return nil if node.matches?('.permalink')   
-          # Do not index headings
-          return nil if node.matches?('.headings')
-          # Do not index anchor
-          return nil if node.matches?('.anchor')
           # Do not index table of contents
           return nil if node.matches?('.toc')
           return nil if node.matches?('.toc_label')
