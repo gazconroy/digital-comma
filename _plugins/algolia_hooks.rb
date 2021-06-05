@@ -11,8 +11,16 @@ module Jekyll
           return nil if node.matches?('.row5')
           # Do not index sidebar
           return nil if node.matches?('.sidebar')
-          # Do not index author profile
+          # Do not index stubborn things
+          return nil if node.matches?('.read_time')
           return nil if node.matches?('.author_profile')
+          return nil if node.matches?('.comments')
+          return nil if node.matches?('.share')
+          return nil if node.matches?('.related')
+          return nil if node.matches?('.read_time')
+          return nil if node.matches?('.show_date')
+          return nil if node.matches?('.header')
+          return nil if node.matches?('.tags')
           # Do not index page permalink
           return nil if node.matches?('.permalink')   
           # Do not index table of contents
