@@ -17,7 +17,6 @@ module Jekyll
           return nil if node.matches?('.comments')
           return nil if node.matches?('.share')
           return nil if node.matches?('.related')
-          return nil if node.matches?('.read_time')
           return nil if node.matches?('.show_date')
           return nil if node.matches?('.header')
           return nil if node.matches?('.tags')
