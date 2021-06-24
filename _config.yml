@@ -38,9 +38,9 @@ breadcrumbs: true
 
 search_provider: algolia
 algolia:
-  application_id: WR91W1HO65
-  index_name: prod_digital-comma
-  search_only_api_key: 018663ac9b4509bbacab9489df1a7bdf
+  application_id: NIN726RTTK
+  index_name: digital-comma
+  search_only_api_key: 02ad64b3d0a1f6ea65ecbddf6aa250f2
   powered_by: true
   nodes_to_index: 'p,li,div.paragraph,p.page__lead'
   files_to_exclude: []

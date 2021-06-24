@@ -3,9 +3,5 @@ main:
     url: /
   - title: "Blog"
     url: /blog
-  - title: "Contact"
-    url: /contact.html
-  - title: "Services"
-    url: /services.html
   - title: "Recent projects"
     url: /projects.html
