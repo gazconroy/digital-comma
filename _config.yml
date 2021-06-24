@@ -39,7 +39,7 @@ breadcrumbs: true
 search_provider: algolia
 algolia:
   application_id: NIN726RTTK
-  index_name: digital-comma
+  index_name: algolia_digital_comma
   search_only_api_key: 02ad64b3d0a1f6ea65ecbddf6aa250f2
   powered_by: true
   nodes_to_index: 'p,li,div.paragraph,p.page__lead'
