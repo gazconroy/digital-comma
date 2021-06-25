@@ -40,15 +40,19 @@ search.addWidget(
     placeholder: '{{ site.data.ui-text[site.locale].search_placeholder_text | default: "Enter your search term..." }}'
   })
 );
-/* Adding refinement list widget
+// Adding refinement list widget
 search.addWidget(
     instantsearch.widgets.refinementList({
-        container: '.refine',
-        attribute: 'type',
-        // Optional parameters
-        operator: 'or',
-        limit: 2
-}); */
+    container: '.refine',
+    attribute: 'type',
+    // Optional parameters
+    operator: 'or',
+    limit: 2,
+    showMore: false,
+    searchable: true,
+    searchablePlaceholder: 'Find...',
+    });
+);
 // Adding results widget
 search.addWidget(
   instantsearch.widgets.hits({
