@@ -40,7 +40,7 @@ search.addWidget(
     placeholder: '{{ site.data.ui-text[site.locale].search_placeholder_text | default: "Enter your search term..." }}'
   })
 );
-// Adding refinement list widget
+/* Adding refinement list widget
 search.addWidget(
     instantsearch.widgets.refinementList({
         container: '.refine',
@@ -48,7 +48,7 @@ search.addWidget(
         // Optional parameters
         operator: 'or',
         limit: 2
-});
+}); */
 // Adding results widget
 search.addWidget(
   instantsearch.widgets.hits({
